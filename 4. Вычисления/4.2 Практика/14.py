@@ -1,10 +1,3 @@
-from math import ceil
+a = float(input())
 
-h = int(input())
-a = int(input())
-b = int(input())
-
-if a >= h:
-    print(1)
-else:
-    print(ceil((h - a) / (a - b)) + 1)
+print((a * 12) % 360)

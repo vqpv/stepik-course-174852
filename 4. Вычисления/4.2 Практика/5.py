@@ -1,6 +1,6 @@
-a = float(input())
-R = float(input())
+from math import sqrt
 
-pi = 3.14
+a = int(input())
+b = int(input())
 
-print(a ** 2 - pi * R ** 2)
+print(sqrt(a ** 2 + b ** 2))

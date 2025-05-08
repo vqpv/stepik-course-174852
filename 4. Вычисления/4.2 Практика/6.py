@@ -1,6 +1,6 @@
-v = int(input())
-t = int(input())
+a = float(input())
+R = float(input())
 
-d = 109
+pi = 3.14
 
-print((v * t) % d)
+print(a ** 2 - pi * R ** 2)

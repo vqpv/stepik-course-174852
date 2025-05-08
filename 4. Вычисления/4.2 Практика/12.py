@@ -1,5 +1,5 @@
-H = int(input())
-M = int(input())
-S = int(input())
+d = int(input())
+a = int(input())
+n = int(input())
 
-print((H * 3600 + M * 60 + S) / 120)
+print(a * n + d * (n - 1) * n // 2)

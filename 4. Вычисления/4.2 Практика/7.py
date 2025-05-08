@@ -1,3 +1,6 @@
-X = float(input())
+v = int(input())
+t = int(input())
 
-print(X - int(X))
+d = 109
+
+print((v * t) % d)

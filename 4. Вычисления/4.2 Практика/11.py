@@ -1,5 +1,4 @@
-d = int(input())
-a = int(input())
+t = int(input())
 n = int(input())
 
-print(a * n + d * (n - 1) * n // 2)
+print(n * 2 ** t)

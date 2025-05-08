@@ -1,11 +1,10 @@
-d = int(input())
-v_1 = int(input())
-v_2 = int(input())
-t = int(input())
+from math import ceil
 
-c_1 = (v_1 * t) % d
-c_2 = (v_2 * t) % d
+h = int(input())
+a = int(input())
+b = int(input())
 
-dist = abs(c_1 - c_2)
-
-print(min(dist, d - dist))
+if a >= h:
+    print(1)
+else:
+    print(ceil((h - a) / (a - b)) + 1)

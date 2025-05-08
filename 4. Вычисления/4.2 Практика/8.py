@@ -1,3 +1,3 @@
 X = float(input())
- 
-print(int(X * 10) % 10)
+
+print(X - int(X))
