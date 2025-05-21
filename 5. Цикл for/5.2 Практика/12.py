@@ -1,12 +1,8 @@
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
+n = int(input())
 
-count = 0
+a, b = 0, 1
 
-for i in range(a, b + 1):
-    if i % d == c:
-        count += 1
+for _ in range(n):
+    a, b = b, a + b
 
-print(count)
+print(a)

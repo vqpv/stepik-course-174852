@@ -1,12 +1,12 @@
 n = int(input())
 
-c = 0
+s_1 = 0
+s_2 = 0
 
 for i in range(1, n + 1):
-    for _ in range(i):
-        if c < n:
-            if c + 1 == n:
-                print(i)
-            else:
-                print(i, end=" ")
-            c += 1
+    s_1 += i
+
+for _ in range(n - 1):
+    s_2 += int(input())
+
+print(s_1 - s_2)

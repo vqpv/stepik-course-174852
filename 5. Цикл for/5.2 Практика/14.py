@@ -1,12 +1,8 @@
-n = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 
-s_1 = 0
-s_2 = 0
-
-for i in range(1, n + 1):
-    s_1 += i
-
-for _ in range(n - 1):
-    s_2 += int(input())
-
-print(s_1 - s_2)
+for x in range(1001):
+    if a * x ** 3 + b * x ** 2 + c * x + d == 0:
+        print(x)

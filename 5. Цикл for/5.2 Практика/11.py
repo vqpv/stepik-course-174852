@@ -1,8 +1,7 @@
 n = int(input())
 
-a, b = 0, 1
+s = ""
 
-for _ in range(n):
-    a, b = b, a + b
-
-print(a)
+for i in range(1, n + 1):
+    s += str(i)
+    print(s)
